@@ -1,0 +1,16 @@
+:host{ display:block }
+.header{ display:flex; align-items:center; gap:12px; margin-bottom:10px }
+.search{ flex:1 }
+.row{ display:flex; gap:8px; align-items:center; flex-wrap:wrap }
+
+.task{
+  display:grid; gap:6px; width:100%;
+}
+.title-line{
+  display:flex; align-items:center; gap:10px;
+}
+.title-line .title{
+  font-weight:600;
+  text-decoration: none;
+}
+.title.done{ text-decoration: line-through; opacity:.65 }

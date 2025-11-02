@@ -1,0 +1,36 @@
+# Node
+node_modules/
+
+# Angular
+/dist/
+/.angular/cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Build
+/build/
+
+# Misc
+coverage/
+
+# Windows
+*.log
+*.tmp
+
+# Others
+frontend/src/app.config.json
