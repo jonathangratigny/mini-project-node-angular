@@ -75,3 +75,25 @@ mini-project-node-angular/
 
 ## Licence
 Ce projet est open-source, sous licence MIT.
+
+## Lancement avec Docker
+
+Ce projet inclut une configuration Docker pour faciliter le lancement en local.
+
+### Prérequis
+- Docker
+- Docker Compose
+
+### Démarrage
+À la racine du projet, lancez :
+```sh
+# Build et démarre les deux services (backend et frontend)
+docker-compose up --build
+```
+- Le backend Node.js sera accessible sur http://localhost:3000
+- Le frontend Angular sera accessible sur http://localhost:4200
+
+### Fichiers Docker
+- `Dockerfile.backend` : image pour le backend Node.js
+- `Dockerfile.frontend` : image pour le frontend Angular
+- `docker-compose.yml` : orchestration des deux services
